@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using SocialNetworkWeb.Models.Users;
+
+@model SocialNetworkWeb.Models.Users.User;
+
+@{
+	ViewData["Title"] = "Home Page";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+	<div class="side">
+		Описание самой клевой соцсети
+	</div>
+
+
+	<div class="main">
+		<partial name="Register" />
+	</div>
+
+</div>
